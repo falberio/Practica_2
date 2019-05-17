@@ -1,0 +1,80 @@
+/* 
+Familia tipográfica general: 'Open Sans', sans-serif;
+Familia tipográfica para títulos: 'Raleway', sans-serif;
+Familia tipográfica para “Emilia Cole” en home page: 'Work Sans', sans-serif;
+*/
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	width: 100%;
+	margin: auto;
+	background-image: url("img/emilia-home.jpg");
+	background-size: 70% 100vh;
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+
+
+nav{
+	margin-left: 50px;
+}
+
+nav li{
+	list-style: none;	
+}
+
+nav .opciones{
+	margin: 0;
+	margin-top: 20px;
+	padding: 0;
+}
+
+nav .opciones li{
+	list-style: none;
+	color: #999999;
+	margin-bottom: 12px;
+}
+
+nav .iconos{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+	width: 8%;
+}
+
+
+nav .iconos i{
+	color: #000;
+}
+
+
+.titulo-home-superior{
+	margin-left: 40px;
+}
+
+.titulo-home-inferior{
+	background-color: rgba(255, 255, 255, .5);
+	width: 99%;
+	margin: auto;
+}
+
+
+
+h2{
+	margin-top: 110px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 32px;
+	font-weight: 400;
+	margin-left: 30px;
+	letter-spacing: 1px;
+}
+
+h1{
+	font-family: 'Raleway', sans-serif;
+	font-size: 65px;
+	margin-top: 130px;
+	margin-left: 30px;
+}
