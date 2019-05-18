@@ -3,3 +3,204 @@ Familia tipográfica general: 'Open Sans', sans-serif;
 Familia tipográfica para títulos: 'Raleway', sans-serif;
 Familia tipográfica para “Emilia Cole” en home page: 'Work Sans', sans-serif;
 */
+
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: 'Open Sans', sans-serif;
+	width: 100%;
+	margin: auto;
+}
+
+.contenedor-menu-music{
+	background-image: url("img/emilia-music-top.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 135px;
+	padding-top: 35px;
+
+}
+
+.contenedor-opciones-menu-music{
+	width: 99%;
+	background-color: rgba(255, 255, 255, .5);
+	padding: 0;
+	margin: auto;
+	height: 50px;
+}
+
+.contenedor-opciones-menu-music ul{
+	margin:0;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+	float: right;
+}
+
+.contenedor-opciones-menu-music ul li{
+	list-style: none;
+	line-height: 50px;
+	padding-right: 5px;
+}
+
+.contenedor-opciones-menu-music ul li a{
+	text-decoration: none;
+	color: #333;
+	font-weight: 600;
+}
+
+.contenedor-opciones-menu-music ul li a:hover{
+	color: #777;
+}
+
+.contenedor-iconos-menu-music{
+	width: 98%;
+	margin: 0;
+	padding: 0;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.contenedor-iconos-menu-music ul{
+	margin:0;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+	float: right;
+	width: 8%;
+}
+
+.contenedor-iconos-menu-music ul li{
+	list-style: none;
+}
+
+.contenedor-iconos-menu-music ul li i{
+	color: #000;
+}
+
+.contenedor-iconos-menu-music ul li i:hover{
+	color: #777;
+}
+
+
+.contenido-music{
+	width: 99%;
+	margin: auto;
+}
+
+.contenido-music .titular-music{
+	margin-top: 80px;
+}
+.contenido-music .titular-music h1{ /*     "MUSIC //"   */
+	font-family: 'Raleway', sans-serif;
+	font-size: 60px;
+}
+
+.contenido-music .navegacion-music h6{
+	font-size: 18px;
+	font-weight: 500;
+	color: #333;
+	margin: 0;
+	padding: 0;
+
+}
+
+.contenido-music .navegacion-music ul{
+	margin: 0;
+	margin-top: 12px;
+	margin-left: 42px;
+	padding: 0;
+}
+
+.contenido-music .navegacion-music ul li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.contenido-music .navegacion-music ul li a{
+	font-size: 14px;
+	color: #aaa;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.contenido-music .navegacion-music ul li a:hover{
+	color: #aaa;
+	font-size: 16px;
+}
+
+.contenedor-album-music, .contenedor-video-music{
+	margin-top: 60px;
+}
+
+.contenedor-album-music h3, .contenedor-video-music h3{
+	font-weight: bold;
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.contenedor-album-music img, .contenedor-video-music iframe{
+	padding: 0;
+	width: 640px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.contenedor-album-music-canciones ul{
+	margin: 0;
+	padding: 0;
+	margin-left: 10px;
+	margin-bottom: 30px;
+}
+
+.contenedor-album-music-canciones ul li{
+	list-style: none;
+	text-decoration: none;
+	color: #222;
+	font-size: 14px;
+	line-height: 28px;
+}
+
+.contenedor-album-music-canciones ul li a{
+	text-decoration: none;
+	color: #222;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.contenedor-album-music-canciones ul li a:hover{
+	color: #888;
+}
+
+.contenedor-video-music ul{
+	margin: 0;
+	padding: 0;
+	margin-bottom: 30px;
+}
+
+.contenedor-video-music ul li{
+	list-style: none;
+	text-decoration: none;
+	color: #222;
+	font-size: 14px;
+	line-height: 22px;
+}
+
+.contenedor-music .go-top-music{
+	font-size: 14px;
+	color: #aaa;
+	text-decoration: none;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+.contenedor-music .go-top-music:hover{
+	font-size: 14px;
+	color: #333;
+	text-decoration: none;
+	font-weight: bold;
+	padding-bottom: 10px;
+}

@@ -14,6 +14,16 @@ about.html,
 music.html,
 contact.html
 
+
+
+
+
+
+
+
+
+////////////////////     FUENTES       ////////////////////
+
 Google Fonts incluidas en el sitio web
 ========================
 'Raleway' 400 y 700, 
@@ -21,7 +31,7 @@ Google Fonts incluidas en el sitio web
 'Open Sans’.
 
 
-/////////////     FUENTES       //////////////
+
 Familia tipográfica general:
 font-family: 'Open Sans', sans-serif;
 
@@ -31,6 +41,16 @@ font-family: 'Raleway', sans-serif;
 Familia tipográfica para “Emilia Cole” en home page:
 font-family: 'Work Sans', sans-serif;
 
+
+
+
+
+
+
+
+
+
+////////////////////////    ICONOS    ///////////////////////
 
 Iconos redes sociales
 =======================
@@ -48,6 +68,17 @@ Buscar iconos: https://fontawesome.com/icons?d=gallery
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 Contacto
 =======================
 Desde este link: https://goo.gl/A6HpoZ 
@@ -55,6 +86,13 @@ Importar desde el mapa con ancho 100% y altura 450px.
 
 Los emails deben abrir un mail con la casillas identificada en el campo “para:”
 Los nros de teléfono deben ofrecer la posibilidad de llamar al número seleccionado.
+
+
+
+
+
+
+
 
 Music
 =========================
@@ -65,16 +103,32 @@ La sección cuenta con links de navegación interna de la propia página:
 - Go To Top: navega al inicio de la página.
 
 
+// Carácter necesario: ►
 
-CONTENIDO DEL SITIO
+
+
+
+
+
+
+
+
+///////////////      CONTENIDO      //////////////////
+
+
+
 About
 ===============
 "Seattle-based pop star makes her indie debut with a hauntingly beautiful album"
 - John Tirckle, Music Today Post
 
 
+
 "Emilia Cole is one of the scene's breakout stars"
 - John Tirckle, Music Today Post
+
+
+
 
 Music
 ========================
@@ -92,6 +146,10 @@ Directed by VINCE MALC & EMILIA COLE
 Edited and Filmed by NICOLAS TROY 
 Produced by NIKI HEART, 
 Wix Films LTD.
+
+
+
+
 
 
 Contact

@@ -7,6 +7,7 @@ Familia tipográfica para “Emilia Cole” en home page: 'Work Sans', sans-seri
 body{
 	margin: 0;
 	padding: 0;
+	border: 0;
 	font-family: 'Open Sans', sans-serif;
 	width: 100%;
 	margin: auto;
@@ -16,54 +17,69 @@ body{
 	background-position: top right;
 }
 
+.contenedor-home{
+	width: 100%;
+	margin: auto;
+	background-image: url("img/emilia-home.jpg");
+	background-size: 70% 100vh;
+	background-repeat: no-repeat;
+	background-position: top right;	
+}
 
-nav{
+.contenedor-menu-home{
 	margin-left: 50px;
 }
 
-nav li{
-	list-style: none;	
+.contenedor-menu-home nav{
+	padding-top: 20px;
 }
 
-nav .opciones{
+.contenedor-opciones-menu-home ul{
 	margin: 0;
-	margin-top: 20px;
 	padding: 0;
+	padding-left: 0;
 }
 
-nav .opciones li{
-	list-style: none;
-	color: #999999;
+.contenedor-opciones-menu-home ul li{
 	margin-bottom: 12px;
+	list-style: none;
 }
 
-nav .iconos{
+.contenedor-opciones-menu-home ul li a{
+	list-style: none;
+	text-decoration: none;
+	color: #999;
+}
+
+.contenedor-opciones-menu-home ul li a:hover{
+	color: #444;
+}
+
+.contenedor-iconos-menu-home ul{
 	margin: 0;
 	padding: 0;
 	display: flex;
-	justify-content: space-around;
-	width: 8%;
+	justify-content: flex-start;
+	list-style: none;	
 }
 
+.contenedor-iconos-menu-home ul li{
+	margin-right: 2px;
+}
 
-nav .iconos i{
+.contenedor-iconos-menu-home i{
 	color: #000;
 }
 
-
-.titulo-home-superior{
-	margin-left: 40px;
+.contenedor-iconos-menu-home i:hover{
+	color: #999;
 }
 
-.titulo-home-inferior{
-	background-color: rgba(255, 255, 255, .5);
-	width: 99%;
-	margin: auto;
+.contenedor-titulo-superior-home{ /* EMILIA COLE */
+	margin-left: 20px;
 }
 
-
-
-h2{
+.contenedor-titulo-superior-home h2{ /* EMILIA COLE */
 	margin-top: 110px;
 	font-family: 'Raleway', sans-serif;
 	font-size: 32px;
@@ -72,9 +88,15 @@ h2{
 	letter-spacing: 1px;
 }
 
-h1{
+.contenedor-titulo-inferior-home{ /* TWIST IN MY REALITY*/
+	background-color: rgba(255, 255, 255, .5);
+	width: 99%;
+	margin: auto;
+}
+
+.contenedor-titulo-inferior-home h1{ /* TWIST IN MY REALITY*/
 	font-family: 'Raleway', sans-serif;
 	font-size: 65px;
-	margin-top: 130px;
-	margin-left: 30px;
+	margin-top: 120px;
+	margin-left: 10px;
 }
