@@ -1,0 +1,549 @@
+/*********************************************************************************
+                                     GENERAL
+*********************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+/*********************************************************************************
+                                      HOME
+*********************************************************************************/
+
+#body-home{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: 'Open Sans', sans-serif;
+	width: 100%;
+	margin: auto;
+	background-image: url("../img/emilia-home.jpg");
+	background-size: 70% 100vh;
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+
+#body-home .menu{
+	margin-left: 50px;
+}
+
+#body-home .menu nav{
+	padding-top: 20px;
+}
+
+#body-home .opciones ul{
+	margin: 0;
+	padding: 0;
+	padding-left: 0;
+}
+
+#body-home .opciones ul li{
+	margin-bottom: 12px;
+	list-style: none;
+}
+
+#body-home .opciones ul li a{
+	list-style: none;
+	text-decoration: none;
+	color: #999;
+}
+
+#body-home .opciones ul li a:hover{
+	color: #444;
+}
+
+#body-home .iconos ul{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: flex-start;
+	list-style: none;	
+}
+
+#body-home .iconos ul li{
+	margin-right: 2px;
+}
+
+#body-home .iconos i{
+	color: #000;
+}
+
+#body-home .iconos i:hover{
+	color: #999;
+}
+
+#body-home .titulo-superior{ /* EMILIA COLE */
+	margin-left: 20px;
+}
+
+#body-home .titulo-superior h2{ /* EMILIA COLE */
+	margin-top: 110px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 32px;
+	font-weight: 400;
+	margin-left: 30px;
+	letter-spacing: 1px;
+}
+
+#body-home .titulo-inferior{ /* TWIST IN MY REALITY*/
+	background-color: rgba(255, 255, 255, .5);
+	width: 99%;
+	margin: auto;
+}
+
+#body-home .titulo-inferior h1{ /* TWIST IN MY REALITY*/
+	font-family: 'Raleway', sans-serif;
+	font-size: 65px;
+	margin-top: 120px;
+	margin-left: 10px;
+}
+
+
+
+
+
+
+
+/*********************************************************************************
+                                      ABOUT
+*********************************************************************************/
+
+#body-about{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: 'Open Sans', sans-serif;
+	width: 100%;
+	margin: auto;
+	background-image: url("../img/emilia-about.jpg") ;
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-size: 75% 100vh;
+}
+
+#body-about header{
+	width: 99%;
+	margin: auto;
+	overflow: hidden;
+}
+
+#body-about nav{
+    background-color: rgba(255,255,255,.5);
+	margin-top: 35px;
+	height: 50px;
+	overflow: hidden;
+}
+
+#body-about nav ul{
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+
+#body-about nav ul li{
+	display: inline;
+	line-height: 50px;
+}
+
+#body-about nav ul li a{
+	color: #888888;;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#body-about nav ul li a:hover{
+	color: black;
+}
+
+#body-about .redes{
+	float: right;
+	margin-right: 5px;
+	margin-top: 10px;
+}
+
+#body-about .redes li{
+	display: inline;
+}
+
+#body-about .redes li a{
+	color: grey;
+	font-size: 13px;
+}
+
+#body-about .redes li a:hover{
+	color: black;
+}
+
+#body-about main{
+	width: 99%;
+	margin: auto;
+	margin-top: 30px;
+}
+
+#body-about main h1{
+	font-size: 60px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	color: #444444;
+	margin-bottom: 30px;
+}
+
+#body-about main blockquote{
+	color: #4DAB92;
+	margin-left:30px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+	text-align: left;
+}
+
+#body-about main #frase2{
+	margin-top: 45px;
+}
+
+#body-about main p{
+	color: #4DAB92;
+	margin-left:25px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
+}
+
+
+
+
+
+
+
+/*********************************************************************************
+                                      CONTACT
+*********************************************************************************/
+
+#body-contact{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#body-contact header{
+	width: 99%;
+	margin: auto;
+}
+
+
+#body-contact .wrapper-opciones{
+	overflow: hidden;
+	margin-top: 30px;
+}
+
+#body-contact .wrapper-redes{
+	overflow: hidden;
+}
+
+#body-contact .opciones{
+	float: right;
+}
+
+#body-contact .opciones li{
+	display: inline;
+}
+
+#body-contact .opciones li a{
+	color: #000;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#body-contact .opciones li a:hover{
+	color: #888888;
+}
+
+#body-contact .redes{
+	float: right;
+}
+
+#body-contact .redes li{
+	display: inline;
+}
+
+#body-contact .redes li a{
+	color: #000;
+}
+
+#body-contact .redes li a:hover{
+	color: #888888;
+}
+
+#body-contact main{
+	width: 99%;
+	margin: auto;
+}
+
+
+
+
+
+#body-contact h1{
+	margin-top: 60px;
+	font-size: 60px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	color: #000;
+}
+
+#body-contact h3{
+	margin-top: 40px;
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+}
+
+#body-contact .mapa{
+	margin-top: 5px;
+}
+
+#body-contact .datos {
+	margin-top: 40px;
+}
+
+#body-contact .datos h2{
+	font-weight: 700;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+}
+
+#body-contact .contacts{
+	margin-bottom: 40px;
+}
+
+#body-contact .datos h4{
+	margin: 0;
+	color: #31B090;
+	margin-bottom: 15px;
+}
+
+
+#body-contact .datos p{
+	margin:0;
+}
+
+#body-contact .datos a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #888888;
+}
+
+
+
+
+
+
+/*********************************************************************************
+                                      MUSIC
+*********************************************************************************/
+
+#body-music{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: 'Open Sans', sans-serif;
+	width: 100%;
+	margin: auto;
+}
+
+#body-music .menu{
+	background-image: url("../img/emilia-music-top.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 135px;
+	padding-top: 35px;
+
+}
+
+#body-music .opciones{
+	width: 99%;
+	background-color: rgba(255, 255, 255, .5);
+	padding: 0;
+	margin: auto;
+	height: 50px;
+}
+
+#body-music .opciones ul{
+	margin:0;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+	float: right;
+}
+
+#body-music .opciones ul li{
+	list-style: none;
+	line-height: 50px;
+	padding-right: 5px;
+}
+
+#body-music .opciones ul li a{
+	text-decoration: none;
+	color: #333;
+	font-weight: 600;
+}
+
+#body-music .opciones ul li a:hover{
+	color: #777;
+}
+
+#body-music .iconos{
+	width: 98%;
+	margin: 0;
+	padding: 0;
+	margin: auto;
+	margin-top: 10px;
+}
+
+#body-music .iconos ul{
+	margin:0;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+	float: right;
+	width: 8%;
+}
+
+#body-music .iconos ul li{
+	list-style: none;
+}
+
+#body-music .iconos ul li i{
+	color: #000;
+}
+
+#body-music .iconos ul li i:hover{
+	color: #777;
+}
+
+#body-music .contenido{
+	width: 99%;
+	margin: auto;
+}
+
+#body-music .titular{
+	margin-top: 80px;
+}
+
+#body-music .titular h1{ /*     "MUSIC //"   */
+	font-family: 'Raleway', sans-serif;
+	font-size: 60px;
+}
+
+#body-music .navegacion h6{
+	font-size: 18px;
+	font-weight: 500;
+	color: #333;
+	margin: 0;
+	padding: 0;
+}
+
+#body-music .navegacion ul{
+	margin: 0;
+	margin-top: 12px;
+	margin-left: 42px;
+	padding: 0;
+}
+
+#body-music .navegacion ul li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#body-music .navegacion ul li a{
+	font-size: 14px;
+	color: #aaa;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#body-music .contenido .navegacion ul li a:hover{
+	color: #aaa;
+	font-size: 16px;
+}
+
+#body-music .album, .video{
+	margin-top: 60px;
+}
+
+#body-music .album h3, .video h3{
+	font-weight: bold;
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#body-music .album img, .video iframe{
+	padding: 0;
+	width: 640px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#body-music .album-canciones ul{
+	margin: 0;
+	padding: 0;
+	margin-left: 10px;
+	margin-bottom: 30px;
+}
+
+#body-music .album-canciones ul li{
+	list-style: none;
+	text-decoration: none;
+	color: #222;
+	font-size: 14px;
+	line-height: 28px;
+}
+
+#body-music .album-canciones ul li a{
+	text-decoration: none;
+	color: #222;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#body-music .album-canciones ul li a:hover{
+	color: #888;
+}
+
+#body-music .video ul{
+	margin: 0;
+	padding: 0;
+	margin-bottom: 30px;
+}
+
+#body-music .video ul li{
+	list-style: none;
+	text-decoration: none;
+	color: #222;
+	font-size: 14px;
+	line-height: 22px;
+}
+
+#body-music .go-top-music{
+	font-size: 14px;
+	color: #aaa;
+	text-decoration: none;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+#body-music .go-top-music:hover{
+	font-size: 14px;
+	color: #333;
+	text-decoration: none;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
